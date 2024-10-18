@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrinkIt</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-------google fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prociono&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: "Prociono", serif;
+
+
+        }
+    </style>
+    <!----------tailwind-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <div
+        class="w-full md:h-screen h-96 bg-[url('https://d2w1ef2ao9g8r9.cloudfront.net/otl-images/_1600x900_crop_center-center_82_line/juicebar.jpg')] bg-no-repeat bg-cover">
+        <div class="w-full md:h-screen h-96" style="background-color: rgba(0, 0, 0, 0.388);">
+            <nav class="w-full fixed p-3 bg-zinc-400 flex justify-center items-center">
+                <ul class="flex text-orange-500	 flex justify-evenly w-full">
+                    <h1 class="md:text-6xl text-2xl hover:text-amber-400 font-semibold hover:cursor-pointer">DrinkIt</h1>
+
+                    <li class=" md:text-2xl text-xl md:font-semibold hover:text-amber-400 hover:cursor-pointer">Specials</li>
+                    <li class=" md:text-2xl text-xl md:font-semibold hover:text-amber-400 hover:cursor-pointer">About</li>
+                    <li class=" md:text-2xl text-xl md:font-semibold hover:text-amber-400 hover:cursor-pointer">Testimonial</li>
+                    <li class=" md:text-2xl text-xl md:font-semibold hover:text-amber-400 hover:cursor-pointer">Contact</li>
+                </ul>
+            </nav>
+            <div class="w-full flex justify-center items-center flex-col md:pt-64 pt-20">
+                <p class="text-yellow-400 text-6xl mt-20 p-8 font-bold	 text-center italic"> Delicious. Honest. Nutritious.
+                </p>
+            </div>
+        </div>
+        <div class="w-full bg-orange-50 flex justify-center items-center flex-col">
+            <h1 class="text-2xl  mt-10 font-black">We Are DrinkIt</h1>
+            <p class="font-medium mt-2">100% Fruit in a Bottle</p>
+            <p class="font-medium mt-2 mb-10"> All Fruit, All-Natural· No Added Sugar· <br>
+                 No Added Colour· Gluten-Free· Eco-friendly
+            </p>
+        </div>
+
+        <!--special-->
+        <div class="w-full bg-orange-50 flex justify-center items-center flex-col">
+            <h1 class="text-4xl  mt-20">Our Luscious Juices</h1>
+            <div class="w-56 h-1 bg-orange-500 mb-4"></div>
+
+
+
+            <div class=" mt-20 md:px-40 md:grid grid-cols-4 w-full">
+                <div class="p-8">
+                    <h1 class="text-3xl text-center mb-2">Avocado</h1>
+                    <img src="./images/img.jpg" alt="no image" class="w-full max-h-56 rounded-lg">
+                    <p class="text-center mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Natus beatae
+                        nesciunt, tenetur reiciendis unde laborum officia ullam harum asperiores veritatis ipsum
+                        explicabo
+                        eveniet excepturi est fuga eius, rem expedita voluptatum!</p>
+                </div>
+                <div class="p-8">
+                    <h1 class="text-3xl text-center mb-2">Strawberry</h1>
+                    <img src="./images/img2.webp" alt="no image" class="w-full max-h-56 rounded-lg">
+                    <p class="text-center mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Natus beatae
+                        nesciunt, tenetur reiciendis unde laborum officia ullam harum asperiores veritatis ipsum
+                        explicabo
+                        eveniet excepturi est fuga eius, rem expedita voluptatum!</p>
+                </div>
+                <div class="p-8">
+                    <h1 class="text-3xl text-center mb-2">Blueberry</h1>
+                    <img src="./images/img3.jpg" alt="no image" class="w-full max-h-56 rounded-lg">
+                    <p class="text-center mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Natus beatae
+                        nesciunt, tenetur reiciendis unde laborum officia ullam harum asperiores veritatis ipsum
+                        explicabo
+                        eveniet excepturi est fuga eius, rem expedita voluptatum!</p>
+                </div>
+                <div class="p-8">
+                    <h1 class="text-3xl text-center mb-2">Passionfruit</h1>
+                    <img src="./images/img4.avif" alt="no image" class="w-full max-h-56 rounded-lg">
+                    <p class="text-center mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Natus beatae
+                        nesciunt, tenetur reiciendis unde laborum officia ullam harum asperiores veritatis ipsum
+                        explicabo
+                        eveniet excepturi est fuga eius, rem expedita voluptatum!</p>
+                </div>
+            </div>
+        </div>
+
+        <!--about-->
+        <div class="w-full bg-orange-50 flex justify-center items-center flex-col">
+            <h1 class="text-4xl  mt-20">About</h1>
+            <div class="w-16 h-1 bg-orange-500 mb-4"></div>
+            <div class="w-full my-20 md:grid grid-cols-2">
+
+                <div class="md:px-40 px-10">
+
+                    <p class="text-justify text-2xl font-medium">The cleanest clean label brand</p><br>
+                    <p class="text-justify ">Ingredients that are 100% natural and safe.
+
+                        Glass bottles that are infinitely reusable and recyclable, and are the healthiest storage
+                        material for your body and the environment.We source our fruits from farms all over India-
+                        Maharashtrian Strawberries & Blueberries, Chittoor Mango, Bihar's Litchi, Karnataka's
+                        Passionfruit.</p>
+                    <p class="text-justify ">Juice is a drink made from the extraction or pressing of the natural
+                        liquid contained in fruit and vegetables. It can also refer to liquids that are flavored with
+                        concentrate or other biological food sources, such as meat or seafood, such as clam juice.</p>
+                        <ul class="list-disc">
+                            <li>Tasty, fresh daily</li>
+                            <li>It's Fruit in a Bottle</li>
+                        </ul>
+                       
+
+                </div>
+                <div>
+                    <img src="./images/story.jpg" alt="no image">
+                </div>
+
+            </div>
+            
+            <!--testimonial-->
+            <div class="w-full bg-orange-50 flex justify-center items-center flex-col">
+                <h1 class="text-4xl  mt-20">from our customers</h1>
+                <div class="w-56 h-1 bg-orange-500 mb-4"></div>
+
+
+
+                <div class=" mt-20 md:px-40 md:grid grid-cols-3 w-full">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card p-8">
+                            <img src="./images/p3.jpg" alt="no image" class="w-full max-h-56">
+                            <div class="card-body">
+                                <h3 class="text-center justify-center items-center flex font-black text-xl">David</h3>
+                                <div class="star text-center mt-2 p-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="text-center mt-4 text-justify">DrinkIt is excellent, your juices are really naturally & they are always delivered fresh and timely....AMAZING.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card p-8">
+                            <img src="./images/p1.jpg" alt="no image" />
+                            <div class="card-body">
+                                <h3 class="text-center justify-center items-center flex font-black text-xl">Ann</h3>
+                                <div class="star text-center mt-2 p-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="text-center mt-4 text-justify">Genuine Products. Tasty & refreshing, Prompt delivery. Will surely try other products. Thank You DrinkIt.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card p-8">
+                            <img  src="./images/p2.jpg" alt="no image" />
+                            <div class="card-body">
+                                <h3 class="text-center justify-center items-center flex font-black text-xl">Rohan</h3>
+                                <div class="star text-center mt-2 p-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="text-center mt-4 text-justify">
+                                    Each and every single bottle was so amazingly delicious. Fruits never tasted so good!</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="p-8">
+                        <img src="./images/p3.jpg" alt="no image" class="w-full max-h-56">
+                        <div class="star text-center mt-2 p-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                         </div>
+                        <p class="text-center mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus beatae
+                            nesciunt, tenetur reiciendis unde laborum officia ullam harum asperiores veritatis ipsum explicabo
+                            eveniet excepturi est fuga eius, rem expedita voluptatum!</p>
+                    </div> -->
+                    <!-- <div class="p-8">
+                        <img src="./images/p1.jpg" alt="no image" class="w-full max-h-56">
+                        <div class="star text-center mt-2 p-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                         </div>
+                        <p class="text-center mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus beatae
+                            nesciunt, tenetur reiciendis unde laborum officia ullam harum asperiores veritatis ipsum explicabo
+                            eveniet excepturi est fuga eius, rem expedita voluptatum!</p>
+                            
+                    </div> -->
+                    <!-- <div class="p-8">
+                        <img src="./images/p2.jpg" alt="no image" class="w-full max-h-56">
+                        <div class="star text-center mt-2 p-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-center mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Natus beatae
+                            nesciunt, tenetur reiciendis unde laborum officia ullam harum asperiores veritatis ipsum
+                            explicabo
+                            eveniet excepturi est fuga eius, rem expedita voluptatum!</p>
+                    </div> -->
+                </div>
+            </div>
+            <div class="mt-6 max-w-6xl max-lg:max-w-3xl mx-auto  rounded-lg">
+                <div class="grid lg:grid-cols-2 items-center gap-14 sm:p-8 p-4 font-[sans-serif]">
+                    <div>
+                        <h1 class="text-4xl font-bold ">Send Your Feedback</h1>
+                        <p class="text-sm  mt-4 leading-relaxed">We're here to assist yo! If you have any questions or any assisstance, please feel free to reach out to us.</p>
+    
+                        <ul class="mt-12 space-y-8">
+                            <li class="flex items-center">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a  class=" text-sm ml-4">
+                                    info@DrinkIt.com
+                                </a>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fa-solid fa-phone"></i>
+                                <a  class=" text-sm ml-4">
+                                    +9158 996 888
+                                </a>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <a class=" text-sm ml-4">
+                                    Washermanpet, George Town, Chennai.
+                                </a>
+                            </li>
+                        </ul>
+    
+                       
+                    </div>
+    
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                       
+    
+                        <form class="mt-8 space-y-4">
+                            <input type='text' placeholder='Name'
+                                class="w-full rounded-lg py-3 px-4 text-gray-800 text-sm outline-[#a91079]" />
+                            <input type='email' placeholder='Email'
+                                class="w-full rounded-lg py-3 px-4 text-gray-800 text-sm outline-[#a91079]" />
+                            <input type='text' placeholder='Subject'
+                                class="w-full rounded-lg py-3 px-4 text-gray-800 text-sm outline-[#a91079]" />
+                            <textarea placeholder='Message' rows="6"
+                                class="w-full rounded-lg px-4 text-gray-800 text-sm pt-3 outline-[#a91079]"></textarea>
+                            <button type='button'
+                                class="text-white bg-yellow-500 hover:bg-yellow-400 tracking-wide rounded-lg text-sm px-4 py-3 flex items-center justify-center w-full !mt-6">
+                                <i class="fa-solid fa-paper-plane p-2"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!--footer-->
+
+            
+            <footer class="w-full py-10 bg-amber-950 ">
+                <div class="container flex flex-col items-center justify-between mx-auto space-y-16 px-6 md:flex-row md:space-y-0">
+    
+                    <p class="text-white text-xl items-center">&copy DrinkIt 2024 </p>
+                    <div class="flex space-x-10">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook text-white text-xl"></i>
+                        </a>
+                        
+                        <a href="#">
+                            <i class="fa-brands fa-instagram text-white	text-xl" ></i>
+                         </a>
+                         <a href="#">
+                            <i class="fa-brands fa-twitter text-white text-xl" ></i>
+                         </a>
+                         
+                         <a href="#">
+                         <i class="fa-brands fa-whatsapp text-white text-xl"></i>
+                         </a>
+                    </div>
+                </div>
+            </footer>
+
+</body>
+
+</html>
